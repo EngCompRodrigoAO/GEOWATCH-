@@ -13,11 +13,20 @@
 /*                                      FERNANDO AUGUSTO FRANÇA 1836170                                          */
 /*                                        OSMAR MURARO OKADA 1832750                                             */
 /*                                    RODRIGO DE AVILA OLIVEIRA 1826340                                          */
-/*                                      SÉRGIO LUIZ BARBOSA 1826279                                              */
+/*                                      SÉRGIO ANTÔNIO DE SOUZA 1835346                                          */
 /*****************************************************************************************************************/
 /*****************************************************************************************************************/
 /*                                                  ORIENTADOR                                                   */
 /*                                     Prof. Dra.  Thays de Souza João Luiz                                      */
+/*****************************************************************************************************************/
+/*                                                                                                               */
+/*                                                                                                               */
+/*                                                                                                               */
+/*              GEOWATCH® - UNIDADE DE MONITORAMENTO METEOROLÓGICO E PREVENÇÃO DE RISCOS NATURAIS                */
+/*                                                                                                               */
+/*                                                                                                               */
+/*                                                                                                               */
+/*                                                                                                               */
 /*****************************************************************************************************************/
 
 /************************************************** INCLUDES **************************************************/
@@ -30,7 +39,7 @@
 #include <Adafruit_BME280.h> //BIBLIOTECA COM FUNÇÕES PARA O SENSOR BME280/BMP280
 
 /************************************************* DEFINIÇÕES *************************************************/
-#define TOKEN "nuQ84KS86qXFBrhJ21zO"           // TOKEN DO SERVIDOR THINGSBOARD
+#define TOKEN "####################"           // TOKEN DO SERVIDOR THINGSBOARD
 #define THINGSBOARD_SERVER "thingsboard.cloud" // ENDEREÇO DO SERVIDOR THINGSBOARD
 
 #define LED_LIGADO 19 // LED DE STATUS LIGADO
@@ -65,8 +74,8 @@
 #define SEALEVELPRESSURE_HPA (1013.25) // DEFINIÇÃO DA PRESSÃO AO NIVEL DO MAR
 
 /******************************************** VARIAVEIS CONSTANTES ********************************************/
-const char *ssid = "FALANGE_SUPREMA";     // NOME DA REDE WIFI.
-const char *password = "#kinecs#";        // SENHA DA REDE WIFI.
+const char *ssid = "#################";     // NOME DA REDE WIFI.
+const char *password = "#############";        // SENHA DA REDE WIFI.
 const char *ntpServer = "pool.ntp.org";   // SERVIDOR DE RELOGIO MUNDIAL.
 const int daylightOffset_sec = -3600 * 3; // SERVIDOR DE RELOGIO MUNDIAL SEGUNDOS CONSTANTES EM 1 DIA.
 const long gmtOffset_sec = 0;             // SERVIDOR DE RELOGIO MUNDIAL GMT DO BRASIL.
